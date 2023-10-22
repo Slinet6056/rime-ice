@@ -20,7 +20,7 @@ patch:
       }
   style:
     color_scheme: Catppuccin
-    font_face: "更纱黑体 UI SC"
+    font_face: "Noto Emoji, 更纱黑体 UI SC"
     label_font_face: "更纱黑体 UI SC"
     comment_font_face: "更纱黑体 UI SC"
     font_point: 13
