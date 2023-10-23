@@ -35,7 +35,7 @@ patch:
         spacing: 5,
         candidate_spacing: 20,
         hilite_spacing: 5,
-        hilite_padding: 5,
+        hilite_padding: 7,
         margin_x: 0,
         margin_y: 0,
         round_corner: 5,
