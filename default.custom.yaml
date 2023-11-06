@@ -1,6 +1,17 @@
 patch:
   key_binder:
+    select_first_character: "bracketleft"
+    select_last_character: "bracketright"
+
     bindings:
-      # 翻页 , .
+      - { when: composing, accept: Shift+Tab, send: Shift+Left }
+      - { when: composing, accept: Tab, send: Shift+Right }
+
+      - { when: has_menu, accept: minus, send: Page_Up }
+      - { when: has_menu, accept: equal, send: Page_Down }
+
       - { when: paging, accept: comma, send: Page_Up }
       - { when: has_menu, accept: period, send: Page_Down }
+
+      - { when: always, accept: Control+Shift+3, toggle: ascii_punct }
+      - { when: always, accept: Control+Shift+4, toggle: traditionalization }
