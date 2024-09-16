@@ -1,7 +1,7 @@
 patch:
-  style/font_face: "Noto Emoji, 更纱黑体 UI SC"
-  style/label_font_face: "更纱黑体 UI SC"
-  style/comment_font_face: "更纱黑体 UI SC"
+  style/font_face: "Segoe UI Emoji, Harmonyos Sans SC"
+  style/label_font_face: "Harmonyos Sans SC"
+  style/comment_font_face: "Harmonyos Sans SC"
   style/font_point: 13
   style/label_font_point: 11
   style/comment_font_point: 12
