@@ -1,0 +1,4 @@
+patch:
+  switches/@3:
+    name: emoji
+    states: [💀, 😄]
