@@ -1,0 +1,19 @@
+name: Sync Fork
+
+on:
+  schedule:
+    - cron: "0 20 * * *" # every day
+  workflow_dispatch: # on button click
+
+jobs:
+  sync:
+    name: Sync latest commits from upstream repo
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: tgymnich/fork-sync@v2.0
+        with:
+          owner: iDvel
+          base: main
+          head: main
+          merge_method: merge
